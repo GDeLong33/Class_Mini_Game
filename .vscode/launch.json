@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Brick Breaker (Edge)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "edge"
+    },
+    {
+      "name": "Brick Breaker (iPhone on Wi-Fi)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "web-server",
+      "args": ["--web-hostname", "0.0.0.0", "--web-port", "8080"]
+    }
+  ]
+}
